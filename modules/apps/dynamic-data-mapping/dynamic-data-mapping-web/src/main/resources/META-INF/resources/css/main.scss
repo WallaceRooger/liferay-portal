@@ -21,9 +21,15 @@
 		}
 	}
 
+	.form-builder-field .form-builder-field-node {
+		clear: both;
+		display: inline-block;
+		margin-right: 5px;
+	}
+
 	.form-builder {
 		.field-checkbox {
-			margin-top: -7px;
+			margin-top: 0;
 		}
 
 		.nav-tabs + .tab-content .tab-pane {
@@ -216,6 +222,13 @@ textarea.script {
 .vertical-scrolling.nav {
 	li {
 		width: 100%;
+	}
+}
+
+.form-builder-checkbox-field-content {
+	label:first-child {
+		align-items: center !important;
+		display: flex !important;
 	}
 }
 
